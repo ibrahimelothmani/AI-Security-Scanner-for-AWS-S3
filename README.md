@@ -14,7 +14,7 @@ AI S3 Security Scanner is a serverless AWS security monitoring system. It automa
 
 The system follows a serverless architecture as shown below:
 
-![Architecture](file:///home/the-green/Desktop/projects/AI-Security-Scanner-for-AWS-S3/architecture.png)
+![Architecture](architecture.png)
 
 1. **EventBridge**: Triggers the Lambda function on a schedule.
 2. **Lambda Function**: Executes the `s3_scanner.py` script.
@@ -62,7 +62,7 @@ The system follows a serverless architecture as shown below:
 
 Once deployed, the Lambda function will run automatically. You can also trigger it manually from the AWS Console to see the results immediately in the CloudWatch logs.
 
-![Security Scan Schedule](file:///home/the-green/Desktop/projects/AI-Security-Scanner-for-AWS-S3/Schedule%20Daily%20Security%20Scans.png)
+![Security Scan Schedule](ScheduleDailySecurityScans.png)
 
 ## 🛡️ Security Remediation
 
