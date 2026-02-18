@@ -62,7 +62,7 @@ The system follows a serverless architecture as shown below:
 
 Once deployed, the Lambda function will run automatically. You can also trigger it manually from the AWS Console to see the results immediately in the CloudWatch logs.
 
-![Security Scan Schedule](ScheduleDailySecurityScans.png)
+![Architecture](Schedule.png)
 
 ## 🛡️ Security Remediation
 
